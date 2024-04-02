@@ -1,0 +1,501 @@
+* {
+    font-family: poppins;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    transition: 0.7s ease;
+}
+
+.logo:hover {
+    color: red;
+    transform: scale(1.1);
+}
+
+.navigator a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.navigator a:hover {
+    background-color: red;
+}
+
+/***********************************/
+.main {
+    padding: 130px 50px;
+    color: white;
+    background-color: black;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+
+.paragraph {
+    padding-bottom: 50px;
+    /* margin-bottom: 30px; */
+}
+
+
+.image {
+    border-radius: 10px;
+    width: 400px;
+    float: right;
+    /* padding-right: 100px; */
+    margin-right: 100px;
+    filter: drop-shadow(0px 0px 20px red);
+    background-attachment: fixed;
+    transition: 0.7s ease;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 34px;
+}
+
+.button {
+    background-color: red;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 20px red; */
+    width: 130px;
+    /* display: inline-block; */
+    padding: 0.9em 2.3em;
+    text-decoration: none;
+    color: white;
+    transition: 0.7s ease;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 50px red;
+    transform: scale(1.1);
+}
+
+
+.custom {
+    /*This is class to change specific words color*/
+    color: red;
+}
+
+.custom:hover {
+    color: white;
+}
+
+ul.social-media-list img {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    float: left;
+
+}
+
+ul.social-media-list img:hover {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+}
+
+ul {
+    padding-left: 50px;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    padding-right: 20px;
+}
+
+.edu table {
+    margin: auto;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+
+table {
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    /* Maintains white border around the table */
+    border-collapse: collapse;
+    /* Ensures lines appear between cells */
+}
+
+td {
+    padding: 30px;
+    /* Optional padding */
+    border: 0;
+    /* Remove default cell borders to avoid duplication */
+    border: 3px solid white;
+    /* Add white border to the right side of each cell */
+}
+
+.add {
+    padding: 100px 50px;
+    background-color: black;
+    margin: auto;
+    /* Centering using text-align */
+    text-align: center;
+}
+
+.add a {
+    color: white;
+    text-decoration: none;
+}
+
+.add a:hover {
+    font-size: 20px;
+    color: red;
+}
+
+/*
+sections style
+*/
+.add {
+    padding: 100px 50px;
+    background-color: black;
+    margin: auto;
+    /* Centering using text-align */
+    text-align: center;
+}
+
+.edu {
+    padding: 100px 50px;
+    background-color: red;
+    margin: auto;
+
+}
+
+.friends {
+    padding: 100px 50px;
+    background-color: red;
+    margin: auto;
+    align-items: center;
+}
+
+.hoppies {
+    padding: 100px 50px;
+    background-color: black;
+    margin: auto;
+    align-items: center;
+}
+
+.jour {
+    padding: 100px 50px;
+    background-color: red;
+    margin: auto;
+    align-items: center;
+}
+
+/*****************/
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+* {
+    font-family: poppins;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.logo:hover {
+    color: red;
+}
+
+.navigator a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.navigator a:hover {
+    background-color: red;
+    /* color: black; */
+}
+
+/***********************************/
+.main {
+    padding: 130px 50px;
+    color: white;
+    background-color: black;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+
+.paragraph {
+    padding-bottom: 50px;
+    /* margin-bottom: 30px; */
+}
+
+
+.image {
+    border-radius: 10px;
+    width: 400px;
+    float: right;
+    /* padding-right: 100px; */
+    margin-right: 100px;
+    filter: drop-shadow(0px 0px 20px red);
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+.button {
+    background-color: red;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 20px red; */
+    width: 130px;
+    /* display: inline-block; */
+    padding: 0.9em 2.3em;
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 50px red;
+}
+
+
+.custom {
+    /*This is class to change specific words color*/
+    color: red;
+}
+
+.custom:hover {
+    color: white;
+}
+
+ul.social-media-list img {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    float: left;
+    transition: 0.7s ease;
+
+}
+
+ul.social-media-list img:hover {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    transform: scale(2.2);
+
+}
+
+ul {
+    padding-left: 50px;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    padding-right: 20px;
+}
+
+.edu table {
+    margin: auto;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+
+table {
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    /* Maintains white border around the table */
+    border-collapse: collapse;
+    /* Ensures lines appear between cells */
+}
+
+td {
+    padding: 30px;
+    /* Optional padding */
+    border: 0;
+    /* Remove default cell borders to avoid duplication */
+    border: 3px solid white;
+    /* Add white border to the right side of each cell */
+}
+
+.add {
+    padding: 100px 50px;
+    background-color: black;
+    margin: auto;
+    /* Centering using text-align */
+    text-align: center;
+}
+
+.add a {
+    color: white;
+    text-decoration: none;
+    transition: 0.7s ease;
+}
+
+.add a:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+/*
+sections style
+*/
+.add {
+    padding: 100px 50px;
+    background-color: red;
+    margin: auto;
+    /* Centering using text-align */
+    text-align: center;
+}
+
+.edu {
+    padding: 100px 50px;
+    background-color: red;
+    margin: auto;
+
+}
+
+.friends {
+    padding: 100px 50px;
+    background-color: black;
+    margin: auto;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+}
+
+.hoppies {
+    padding: 100px 50px;
+    background-color: red;
+    margin: auto;
+    text-align: center;
+    /* display: inline-block; */
+}
+
+.jour {
+    padding: 100px 50px;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+
+}
+
+/*****************/
+
+.card {
+    background-color: #fff;
+    width: 15.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 0px 50px;
+    transition: 0.7s ease;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+img {
+    width: 12em;
+}
+
+.friends a {
+    color: white;
+    transition: 0.7s ease;
+
+}
+
+.friends a:hover {
+    transform: scale(1.1);
+    color: red;
+}
